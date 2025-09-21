@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Revision Papers — Tribals, Dikus & the Vision of a Golden Age</title>
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--muted:#6b7280;--accent:#0ea5a4}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,'Helvetica Neue',Arial;background:var(--bg);color:#111}
+    .container{max-width:1000px;margin:36px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .card{background:var(--card);border-radius:12px;box-shadow:0 6px 18px rgba(15,23,42,0.06);padding:18px;margin-top:18px}
+    .controls{display:flex;gap:10px;align-items:center}
+    .btn{border:0;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;cursor:pointer;text-decoration:none;font-weight:600}
+    .btn.ghost{background:transparent;color:var(--accent);border:1px solid rgba(14,165,164,0.12)}
+
+    table{width:100%;border-collapse:collapse;margin-top:12px}
+    th,td{padding:10px 12px;text-align:left;border-bottom:1px solid #eef2f7}
+    th{background:#f1f5f9;font-weight:700}
+    td.term{width:180px;font-weight:700;color:#0f172a}
+
+    .quick{display:grid;grid-template-columns:1fr;gap:10px;margin-top:14px}
+    @media(min-width:720px){.quick{grid-template-columns:repeat(2,1fr)}}
+
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem}
+
+    /* print friendly */
+    @media print{
+      body{background:white}
+      .controls,header a,footer{display:none}
+      .card{box-shadow:none;border-radius:0}
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Revision Papers</h1>
+        <p class="lead">Tribals, Dikus &amp; the Vision of a Golden Age — quick one-word terms &amp; definitions</p>
+      </div>
+      <div class="controls">
+        <a class="btn" href="sandbox:/mnt/data/tribals_dikus_revision_sheet.pdf" download>Download PDF</a>
+        <a class="btn ghost" href="#print" onclick="window.print();return false;">Print</a>
+      </div>
+    </header>
+
+    <section class="card" id="sheet">
+      <table aria-label="Revision terms">
+        <thead>
+          <tr><th>Term</th><th>One-Line Definition</th></tr>
+        </thead>
+        <tbody>
+          <tr><td class="term">Tribal</td><td>Indigenous community living in forests/hills with distinct culture.</td></tr>
+          <tr><td class="term">Jhum</td><td>Shifting cultivation where land is cleared, burnt, and used briefly.</td></tr>
+          <tr><td class="term">Beho</td><td>Festival of Bodos (Assam) celebrating harvest and community life.</td></tr>
+          <tr><td class="term">Dikus</td><td>Outsiders like moneylenders, traders, zamindars, officials who exploited tribals.</td></tr>
+          <tr><td class="term">Mahua</td><td>Forest tree whose flowers/fruits are used for food and drink.</td></tr>
+          <tr><td class="term">Sal</td><td>Hardwood tree; tribals used its wood for houses/tools.</td></tr>
+          <tr><td class="term">Birsa Munda</td><td>Tribal leader of the Munda Rebellion (Ulgulan) in Chotanagpur.</td></tr>
+          <tr><td class="term">Ulgulan</td><td>“Great Tumult” – Munda revolt (1899-1900) against British &amp; dikus.</td></tr>
+          <tr><td class="term">Khilafat</td><td>Sacred land in Munda belief where spirits dwell.</td></tr>
+          <tr><td class="term">Forest Act</td><td>British law restricting forest use and shifting cultivation.</td></tr>
+          <tr><td class="term">Reservation</td><td>Area set aside by British for timber exploitation.</td></tr>
+          <tr><td class="term">Plantation</td><td>Large estate for crops like tea, coffee, rubber for export.</td></tr>
+          <tr><td class="term">Headman</td><td>Village elder who collected rent/taxes before British interference.</td></tr>
+          <tr><td class="term">Settled Cultivation</td><td>Permanent farming on the same plot yearly.</td></tr>
+          <tr><td class="term">Hul</td><td>Santhal rebellion (1855–56) against zamindars, moneylenders, British.</td></tr>
+          <tr><td class="term">Spirit Worship</td><td>Tribal belief in ancestral/nature spirits for protection.</td></tr>
+          <tr><td class="term">Golden Age</td><td>Birsa’s dream of a free tribal land without British or dikus.</td></tr>
+        </tbody>
+      </table>
+
+      <div class="quick">
+        <div>
+          <h3>Quick Points</h3>
+          <ul>
+            <li><strong>Impact of British Rule:</strong> Loss of forest rights, forced labour, high taxes, exploitation by moneylenders.</li>
+            <li><strong>Tribal Movements:</strong> Santhal Hul (1855), Munda Ulgulan (1899), various forest protests.</li>
+            <li><strong>Birsa’s Vision:</strong> Return to ancestral customs, end of missionary influence, land free of outsiders.</li>
+            <li><strong>British Strategy:</strong> Forest Acts, reserved forests, plantation economy to earn revenue.</li>
+          </ul>
+        </div>
+        <div>
+          <h3>How to Use</h3>
+          <p>Use this page for quick revision — print it or download the PDF. Want more chapters added? Click the "Edit" option and add more sheets.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      Made with ❤️ • Save, print or ask to add more chapters.
+    </footer>
+  </div>
+</body>
+</html>
